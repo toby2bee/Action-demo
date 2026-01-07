@@ -10,7 +10,7 @@ on:
       tag:
         description: 'Docker image tag'
         required: false
-        default: 'latest'
+        default: '3.0'
 
       ecr_repo:
         description: 'ECR Repository name'
